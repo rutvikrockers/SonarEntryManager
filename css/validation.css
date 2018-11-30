@@ -1,0 +1,49 @@
+﻿input.error  
+{
+  /*  background-color: #fef1f3;*/
+  /*  background:#ffffcc url("../images/validatebox_warning.png") no-repeat right 0px;*/
+    border: 1px solid red;
+}
+textarea.error
+{
+    /*   background-color: #fef1f3;
+    background:#ffffcc url("../images/validatebox_warning.png") no-repeat right 0px;*/
+    border: 1px solid red;
+}
+select.error  
+{
+    /*background-color: #ffffcc;*/
+    border: 1px solid red;
+}
+
+
+form.MasterPageForm1 { width: 50em; }
+
+label.error 
+{
+   
+    /*background: #FFFFCC url("../images/validatebox_pointer.gif") no-repeat 0px 0px;  */
+	font-size: 13px;
+    color:#FF0000;
+    
+	margin:0;
+	padding:0;
+	display: block;
+	font-family:   Helvetica, Arial, sans-serif !important;
+	font-weight: normal !important;
+	position:absolute;
+	text-align: left;
+	
+}
+
+em.success {
+   /* background: url("../images/Checked.gif") no-repeat 4px 4px;*/
+   display: block;
+   /* padding-left: 21px;
+    margin-left : 5px;*/
+    color: #666;
+	border: none !important;
+}
+
+
+

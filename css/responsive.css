@@ -1,0 +1,1653 @@
+/* CSS Document */
+
+
+/* Responsive css */
+
+@media(max-width:1199px) {
+    .address {
+        margin-left: 15px;
+    }
+    .order-details .red-one {
+        width: 31px !important;
+    }
+    .pt10-md {
+        padding-top: 10px;
+    }
+    .tckt_desc {
+        float: left;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .date-ttl {
+        margin-top: 15px;
+        display: inline-block;
+        float: left;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .pdfb1 {
+        padding: 12px 2px;
+    }
+    .pdtw1 {
+        padding: 12px 15px;
+    }
+}
+
+@media(max-width:1024px) {
+    .event-webpage .red-one {
+        width: 45px;
+    }
+    /*.address{
+	padding:10px 0px;
+}*/
+    /*.facebook_icon{
+	padding: 12px 6px;
+}*/
+    .twitter_icon {
+        padding: 12px 15px;
+    }
+    .twpd {
+        padding: 12px 9px;
+    }
+    .fbpd {
+        padding: 12px 0px;
+    }
+    /*.world-tour{
+	margin-left:-25px;
+}*/
+    .navbar-form .form-control {
+        width: 200px;
+    }
+    .navbar-form {
+        margin-left: 0px;
+    }
+    .header_search .searchbartop input {
+        width: 100%;
+    }
+    .questioneditbtn {
+        width: 70px;
+    }
+}
+
+@media(min-width:991px) {
+    #topSearch.collapse {
+        display: block;
+    }
+}
+
+@media(max-width:991px) {
+    .catList li a img {
+        height: 100%;
+    }
+    .cetr {
+        text-align: center;
+    }
+    .lucha {
+        padding-right: 0;
+    }
+    .share-event {
+        margin-top: 20px;
+    }
+    .add768 {
+        padding-left: 0px;
+    }
+    .address {
+        margin-left: 0px;
+    }
+    .toggle-search {
+        display: block;
+    }
+    #topSearch {
+        display: none;
+        position: absolute;
+        top: 69px;
+        left: 0px;
+        background-color: #FFF;
+        padding: 10px;
+        width: 100%;
+        border-top: 1px solid #CCC;
+    }
+    #topSearch.in {
+        display: block;
+    }
+    #topSearch .form-group {
+        display: block;
+    }
+    #topSearch .form-control {
+        width: 100%;
+    }
+    .navbar-form {
+        position: initial;
+        margin: 0px;
+        margin-left: 30px;
+        margin-top: 2px;
+    }
+    #topSearch .btn-default {
+        top: 10px;
+        right: 10px;
+    }
+    .more-event {
+        text-align: center;
+    }
+    .marB15-sm {
+        margin-bottom: 15px;
+    }
+    .marB25-sm {
+        margin-bottom: 25px;
+    }
+    .org-head {
+        text-align: center;
+    }
+    .orgLeft {
+        float: none;
+    }
+    .orgRight {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    /*search design*/
+    .header_search {
+        width: 100%;
+        margin-top: 0px;
+        top: 129px;
+        border: 0px;
+        left: 0px;
+        border-bottom: 2px solid #ddd;
+    }
+    .header_search .searchbartop input {
+        width: 100%;
+    }
+    .header_search .btn-event {
+        margin-left: 0px;
+    }
+    .res_header_search {
+        top: 64px;
+        border-radius: 0px;
+    }
+    .header_searchlist li:first-child {
+        border-radius: 0px;
+    }
+    .header_searchlist li:last-child {
+        border-radius: 0px;
+    }
+    .smallfilesize {
+        width: 70%!important;
+    }
+}
+
+@media(max-width:768px) {
+    .take-estimate-area {
+        display: block;
+    }
+    .take-estimate-area li {
+        width: 100% !important;
+        display: block;
+    }
+    .event_detail-table {
+        max-height: 260px;
+        overflow-y: scroll;
+    }
+    .event_detail-table tbody {
+        display: block !important;
+    }
+    .date-ttl,
+    .tckt_desc {
+        float: none;
+    }
+    .page-wrap {
+        width: 70%;
+        padding: 15px;
+    }
+    .image {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .wordbrk {
+        word-break: break-all;
+    }
+    /*.world-tour{
+	margin-left:-25px;
+}*/
+    .fussio {
+        padding: 0;
+    }
+    /*.address{
+padding-top:10px;
+}*/
+    .fussio p {
+        padding-right: 0;
+    }
+    .free-tckt li .btn-event {
+        padding: 10px 15px;
+    }
+    .setting i {
+        padding-right: 0;
+    }
+    .date h1 {
+        font-size: 30px;
+    }
+    .share-event {
+        margin-top: 20px;
+    }
+    .lucha {
+        padding-right: 0;
+    }
+    .tkt-img {
+        padding-bottom: 20px;
+    }
+    .cetr {
+        text-align: center;
+    }
+    .pt01 {
+        padding-top: 7px;
+    }
+    .add768 {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+}
+
+@media(max-width:767px) {
+    .ex_pay_design>li {
+        display: inline-block;
+        padding: 0px 10px;
+        float: none;
+        width: 100%;
+    }
+    .home-banner .carousel-inner>.item>.slider-img {
+        width: 100%;
+        height: 100%;
+        background-position: 50% 50%;
+        background-size: cover;
+        position: relative;
+    }
+    /* 	.home-banner .carousel-caption {
+    top: 10%;
+}
+ 	.home-banner .carousel-inner > .item,{
+ 		height: 200px;
+ 	}
+ 	.home-banner .carousel-inner {
+    height: 200px;
+}*/
+    .catList li a .cat-overlay .cat-name {
+        font-size: 18px;
+    }
+    /*	.catList li a img{
+ 		width: inherit;
+ 	}*/
+    .catList li a {
+        height: 150px;
+    }
+    .event li {
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .second-footer {
+        text-align: center;
+    }
+    .fussio p {
+        text-align: center;
+        float: none;
+    }
+    .lable-rite {
+        text-align: left;
+    }
+    .browse1 {
+        margin-top: 15px;
+        text-align: right;
+    }
+    .mt480 {
+        margin-top: 10px;
+    }
+    .mb10 {
+        margin-bottom: 10px;
+    }
+    .brm20 {
+        margin-top: 20px;
+    }
+    .test-cntr {
+        text-align: center;
+    }
+    .con-cntr {
+        text-align: center;
+        margin-bottom: 20px;
+        padding-top: 0;
+    }
+    .event li {
+        text-align: left;
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .event li a:hover,
+    .login-link li:hover {
+        background-color: #e0336b;
+        color: #fff;
+    }
+    .login-link li a:hover {
+        color: #fff;
+    }
+    .login-link {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .login-link ul {
+        padding-left: 0;
+    }
+    .login-link ul li {
+        display: inherit;
+        border-right: none;
+        border-bottom: 1px solid #4f4f4e;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .event {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .p0 {
+        padding: 0;
+    }
+    .login-link ul li a,
+    .event li a {
+        margin-left: 10px;
+    }
+    .login-link li:last-child {
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .edit-delt li {
+        float: left;
+        margin-left: 10px;
+    }
+    .center-sm {
+        text-align: center;
+    }
+    .tr8 {
+        text-align: right;
+    }
+    .log-drop {
+        display: block;
+    }
+    .bullet_log {
+        display: block;
+        text-align: left;
+    }
+    .log_div {
+        position: relative;
+    }
+    .bullet_log:hover {
+        background-color: #e0336b;
+    }
+    .date-schedule li {
+        float: left;
+        width: 100%;
+    }
+    .order-total span {
+        margin-right: 4%;
+    }
+    .max-input {
+        width: 20%;
+    }
+    .max-time {
+        width: 13%;
+    }
+    .mt20-xs0 {
+        margin-top: 20px;
+    }
+    .pr15-xs {
+        padding-right: 15px;
+    }
+    .float0-xs {
+        float: none !important;
+    }
+    .toggle-filters {
+        display: block;
+    }
+    #filters.collapse {
+        display: none;
+    }
+    #filters.collapse.in {
+        display: block;
+    }
+    #filters .red-event {
+        background-color: #fff;
+        padding: 0px 15px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    #filters .event-detail {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    #filters .event-detail:last-child {
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .filters {
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+    .toggle-search {
+        position: absolute;
+        top: 5px;
+        right: 75px;
+    }
+    .bs-navbar-collapse {
+        position: relative;
+    }
+    .navbar-form {
+        position: absolute;
+        top: -4px;
+        width: 100%;
+        left: 0px;
+        margin: 0px;
+    }
+    #topSearch {
+        top: 73px;
+        left: 0px;
+    }
+    .marB15-xs {
+        margin-bottom: 15px;
+    }
+    .user_menu {
+        position: relative;
+        width: 100%;
+        top: 0px;
+        display: block;
+        box-shadow: none;
+    }
+    .user_menu li {
+        width: 100%;
+        list-style: none;
+        float: none;
+        height: 42px;
+        line-height: 31px;
+        border-top: 1px solid #EEE;
+        text-align: left;
+    }
+    .user_menu li a {
+        display: block;
+        padding: 5px 10px;
+        color: #8A8A8A;
+        font-size: 14px;
+        width: 100%;
+        float: left;
+        text-transform: uppercase;
+        font-weight: 300;
+        -webkit-transition: all ease-in-out .15s;
+        transition: all ease-in-out .15s;
+    }
+    .user_menu li a span {
+        display: block;
+    }
+    .user_menu li a i {
+        font-size: 20px;
+        margin-right: 7px;
+        float: left;
+        margin-top: 5px;
+    }
+    .user_menu li a:hover {
+        background-color: #e0336b;
+        color: #FFFFFF !important;
+    }
+    .navbar-nav.navbar-right:last-child {
+        margin-right: -15px;
+    }
+    .bs-navbar-collapse {
+        max-height: inherit;
+    }
+    .navbar-nav>li>a.btnCreateEvent {
+        margin-right: 15px;
+        margin-top: 9px;
+    }
+    .create-btn {
+        padding-top: 8px;
+        border-top: 1px solid #ddd;
+    }
+    .invitation-btn2 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:760px) {
+    .pdlr {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .slide_head .slide_r {
+        text-align: center;
+    }
+}
+
+@media(max-width:693px) {
+    .page-wrap h3 {
+        font-size: 22px;
+    }
+    .free-tckt li {
+        margin-right: 10px;
+    }
+}
+
+@media(max-width:679px) {
+    .tool {
+        padding-right: 0;
+    }
+}
+
+@media(max-width:626px) {
+    .page-wrap h3 {
+        font-size: 18px;
+    }
+    .event-webpage .red-one {
+        width: 35px;
+    }
+}
+
+@media(max-width:607px) {
+    .invite .btn-event {
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:602px) {
+    .save-preview li {
+        padding-bottom: 20px;
+    }
+    .cust_color li {
+        float: none;
+        width: 100%;
+    }
+    .invitation-btn2 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .smallfilesize {
+        width: 50%!important;
+    }
+}
+
+@media(max-width:579px) {
+    .save-preview li {
+        display: block;
+    }
+}
+
+@media(max-width:537px) {
+    .free-tckt li {
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+
+@media(max-width:536px) {
+    .free-tckt li .btn-event {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:520px) {
+    .customize-btn {
+        width: 128px !important;
+        margin-right: 0;
+    }
+    .customize-btn a {
+        width: 127px !important;
+        float: left;
+    }
+    .order-total span {
+        margin-right: 3%;
+        padding: 0;
+    }
+    .order-info {
+        width: 88%;
+    }
+    .max-input {
+        width: 50%;
+    }
+    .max-time {
+        width: 13%;
+    }
+    .pleft15-xs1 {
+        padding-left: 15px !important;
+    }
+    .pleft0-xs1 {
+        padding-left: 0 !important;
+    }
+    .width-xs {
+        width: 100%;
+    }
+    .offset2-xs {
+        margin-left: 16.66666667%;
+    }
+    .mt0-xs1 {
+        margin-top: 0 !important;
+    }
+    .p0-xs {
+        padding: 0;
+    }
+    .pt10-xs {
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:500px) {
+    .event li {
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .ls-tab li {
+        width: 100%;
+        border-bottom: 1px solid #EEEEEE;
+    }
+    .right-side1 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .left-side1 {
+        width: 100%;
+        text-align: center;
+    }
+    .status-tab li {
+        width: 100%;
+    }
+    /*.eventdash-link {
+	margin-top: 20px;
+}*/
+    .status,
+    .ticket-parent {
+        width: 100%;
+    }
+    .ticket-parent {
+        border-left: 0;
+    }
+    .save-preview3 {
+        padding: 0;
+    }
+    .save-preview3 li {
+        width: 142px;
+    }
+}
+
+@media(max-width:480px) {
+    .invite {
+        margin-top: 0px;
+    }
+    .page-wrap h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .btn-create .btn-event {
+        padding: 10px 30px;
+    }
+    .fussio p {
+        text-align: center;
+        float: none;
+    }
+    .arrow-img img {
+        padding: 0px 0px;
+    }
+    .address {
+        text-align: center;
+    }
+    .event li {
+        display: inline;
+        text-align: left;
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .event li a:hover,
+    .login-link li:hover {
+        background-color: #e0336b;
+        color: #fff;
+    }
+    .login-link li a:hover {
+        color: #fff;
+    }
+    .login-link {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .login-link ul {
+        padding-left: 0;
+    }
+    .login-link ul li {
+        display: inherit;
+        border-right: none;
+        border-bottom: 1px solid #4f4f4e;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .fw li {
+        float: left;
+        width: 50%;
+    }
+    .p0 {
+        padding: 0;
+    }
+    .login-link ul li a,
+    .event li a {
+        margin-left: 10px;
+    }
+    .login-link li:last-child {
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .event {
+        margin-top: -10px;
+    }
+    .lable-rite {
+        text-align: left;
+    }
+    .m10 {
+        margin-bottom: 10px;
+    }
+    .free-tckt li .btn-event {
+        padding: 10px 20px;
+    }
+    /*.save-preview{
+	text-align:left;
+}*/
+    .free-tckt {
+        padding-left: 20px;
+    }
+    .brm20 {
+        margin-top: 20px;
+    }
+    .invite .btn-event {
+        display: inline-block;
+    }
+    .event-webpage .width100 {
+        width: 100%;
+    }
+    .add-finca {
+        text-align: left;
+        /* margin-left: 20px; */
+    }
+    .browse1 {
+        text-align: right;
+        margin-top: 0px;
+    }
+    .mt480 {
+        margin-top: 10px;
+    }
+    .center-sm {
+        text-align: center;
+    }
+    .ls-tab>li.active>a,
+    .ls-tab>li.active>a:hover,
+    .ls-tab>li.active>a:focus {
+        background: #e0336b;
+    }
+    .dashHeaderRight,
+    .dashHeaderLeft {
+        float: none;
+        width: 100%;
+    }
+    .dashHeader,
+    .dashRightLinks,
+    .btnsBG {
+        text-align: center;
+    }
+    .back-img .page-wrap h3 {
+        font-size: 25px;
+    }
+    .eventListContainer .josef .imgLeft {
+        float: left;
+        margin: 5px;
+        margin-right: 15px;
+        width: 100px;
+    }
+    .create-new {
+        float: none!important;
+        margin: 0px auto;
+        display: table;
+        margin-bottom: 10px;
+    }
+    .create-new2 {
+        float: none!important;
+        margin: 0px auto;
+        display: table;
+    }
+    .cust_color li {
+        float: none;
+        width: 100%;
+    }
+    .invitation-btn2 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    /* start Added by ankit */
+    .header_search .btn-event {
+        margin-left: 0px;
+        padding: 12px 10px;
+    }
+    /* End */
+    .smallfilesize {
+        width: 50%!important;
+    }
+}
+
+@media (max-width:450px) {
+    .email_title h1 {
+        font-size: 22px;
+    }
+    .order-total span {
+        margin-right: 5%;
+    }
+    .order-info {
+        width: 86%;
+    }
+    .customize-btn {
+        width: 100% !important;
+    }
+    .customize-btn .btn-event2,
+    .customize-btn .btn-eventgrey {
+        width: 100% !important;
+    }
+    .btnsBG ul li a {
+        padding: 20px 25px;
+    }
+    .searchTextbox {
+        width: 100%;
+        float: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+    .searcharea {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .searchTextbox.marRW60 {
+        margin-right: 60px;
+        width: inherit;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width:436px) {
+    .cetr {
+        text-align: center;
+    }
+    /*.free-tckt li{
+	padding-bottom:20px;
+}*/
+    .acc {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:431px) {
+    .page-wrap a {
+        margin-left: 0;
+        display: inline-block;
+    }
+    .page-wrap p {
+        margin-bottom: 0;
+    }
+    .btn-create .btn-event {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:380px) {
+    .event li {
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .invite-card {
+        padding: 20px 10px;
+    }
+    .order-total span {
+        margin-right: 8%;
+    }
+    .btnsBG ul li a {
+        padding: 20px 22px;
+    }
+}
+
+@media(max-width:374px) {
+    .g-recaptcha {
+        transform: scale(0.77);
+        -webkit-transform: scale(0.77);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+    .ls-tab li {
+        font-size: 17px;
+    }
+    .facebook ul li {
+        padding-right: 2px;
+    }
+    .navbar-brand {
+        width: 220px;
+    }
+    .navbar-toggle {
+        margin-top: 15px;
+    }
+    .toggle-search {
+        margin-top: 15px;
+        padding-bottom: 24px;
+    }
+    #topSearch {
+        top: 62px;
+    }
+}
+
+@media(max-width:365px) {
+    .facebook ul li {
+        display: block;
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:360px) {
+    .fsize {
+        padding: 12px 2px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:350px) {
+    .add-question {
+        width: 68%;
+    }
+    .add-question .btn-event2 {
+        width: 160px;
+    }
+    .selectall-container {
+        width: 80%;
+    }
+    .event-desc span {
+        font-size: 13px;
+    }
+    .invite-card {
+        padding: 20px 5px;
+    }
+    .width-xs2 {
+        width: 100%;
+    }
+    .tac-xs2 {
+        text-align: center;
+    }
+    .pleft0-xs2 {
+        padding-left: 0;
+    }
+    .p0-xs2 {
+        padding: 0;
+    }
+}
+
+@media(max-width:320px) {
+    .event-webpage h4 {
+        font-size: 14px;
+    }
+    .page-wrap .btn-event {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+    .page-wrap p,
+    .page-wrap h3 {
+        font-size: 12px;
+    }
+    .event li {
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid #4f4f4e;
+    }
+    .footer-list ul {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .event li a:hover,
+    .login-link li:hover {
+        background-color: #e0336b;
+        color: #fff;
+    }
+    .login-link li a:hover {
+        color: #fff;
+    }
+    .free-tckt {
+        text-align: center;
+    }
+    .free-tckt li {
+        margin-bottom: 10px;
+    }
+    .free-tckt li .btn-event,
+    .free-tckt li .btn-eventgrey {
+        padding: 10px 40px;
+        width: 100%;
+    }
+    .fsize {
+        font-size: 12px;
+    }
+    .event-webpage .width100 {
+        width: 100%;
+    }
+    .upload {
+        width: 250px;
+    }
+    .select-all ul li {
+        width: 45%;
+    }
+    .pdfb1 {
+        padding: 10px 15px;
+    }
+    .pdtw1 {
+        padding: 12px 28px;
+    }
+    .cancel-info tbody tr td {
+        word-break: break-all;
+    }
+    .create-new {
+        float: none!important;
+        margin: 0px auto;
+        display: table;
+        margin-bottom: 10px;
+    }
+    .create-new2 {
+        float: none!important;
+        margin: 0px auto;
+        display: table;
+    }
+    .invitation-btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .invitation-btn2 {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .small-size {
+        font-size: 16px;
+    }
+    .browsebtn {
+        float: right;
+    }
+    .questioneditbtn {
+        width: 65px;
+    }
+    .questionwidth70 {
+        width: 75px;
+    }
+    .questionwidth150 {
+        width: 160px;
+    }
+    .info-collect .bold-label {
+        font-size: 14px;
+    }
+}
+
+
+/*@media(max-width:330px){
+		.btn-event{
+			padding:10px 20px;
+		}
+}*/
+
+
+/**********************  Responsive table css                *************************/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Force table to not be like tables anymore */
+    .table_res table,
+    .table_res thead,
+    .table_res tbody,
+    .table_res th,
+    .table_res td,
+    .table_res tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    .table_res thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .table_res td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 40% !important;
+        border-top: 0 !important;
+        padding-bottom: 10px !important;
+        padding-top: 10px !important;
+    }
+    .table_res td[class*=col-],
+    .table_res th[class*=col-] {
+        position: relative !important;
+    }
+    .table_res td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 8px;
+        left: 7px;
+        width: 40%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+    }
+    .table_res tr {
+        border-bottom: 3px solid #ddd;
+    }
+    .table_res tr td:last-child {
+        border: none !important;
+        min-height: 32px;
+    }
+    .ticket-info td:nth-of-type(1):before {
+        content: "Ticket type";
+        font-weight: bold;
+    }
+    .ticket-info td:nth-of-type(2):before {
+        content: "Sales end";
+        font-weight: bold;
+    }
+    .ticket-info td:nth-of-type(3):before {
+        content: "Price";
+        font-weight: bold;
+    }
+    .ticket-info td:nth-of-type(4):before {
+        content: "Fee";
+        font-weight: bold;
+    }
+    .ticket-info td:nth-of-type(5):before {
+        content: "Quantity";
+        font-weight: bold;
+    }
+    /* mycontact */
+    .contact-info td:nth-of-type(1):before {
+        content: "Select";
+        font-weight: bold;
+    }
+    .contact-info td:nth-of-type(2):before {
+        content: "Name";
+        font-weight: bold;
+    }
+    .contact-info td:nth-of-type(3):before {
+        content: "Contacts";
+        font-weight: bold;
+    }
+    .contact-info td:nth-of-type(4):before {
+        content: "Created";
+        font-weight: bold;
+    }
+    .contact-info td:nth-of-type(5):before {
+        content: "Quick Links";
+        font-weight: bold;
+    }
+    /* End */
+    /* contact_list */
+    .contct-info td:nth-of-type(1):before {
+        content: "Select";
+        font-weight: bold;
+    }
+    .contct-info td:nth-of-type(2):before {
+        content: "Email";
+        font-weight: bold;
+    }
+    .contct-info td:nth-of-type(3):before {
+        content: "Last Emailed";
+        font-weight: bold;
+    }
+    .contct-info td:nth-of-type(4):before {
+        content: "Name";
+        font-weight: bold;
+    }
+    .contct-info td:nth-of-type(5):before {
+        content: "Created";
+        font-weight: bold;
+    }
+    .contct-info td:nth-of-type(5):before {
+        content: "Quick Links";
+        font-weight: bold;
+    }
+    /* End */
+    /* myevent */
+    .event-info td:nth-of-type(1):before {
+        content: "Event";
+        font-weight: bold;
+    }
+    .event-info td:nth-of-type(2):before {
+        content: "Date";
+        font-weight: bold;
+    }
+    .event-info td:nth-of-type(3):before {
+        content: "Status";
+        font-weight: bold;
+    }
+    .event-info td:nth-of-type(4):before {
+        content: "Sold";
+        font-weight: bold;
+    }
+    .event-info td:nth-of-type(5):before {
+        content: "Quick Links";
+        font-weight: bold;
+    }
+    /* End */
+    /* add_event */
+    .quantity-info td:nth-of-type(1):before {
+        content: "Ticket name";
+        font-weight: bold;
+    }
+    .quantity-info td:nth-of-type(2):before {
+        content: "Quanity available";
+        font-weight: bold;
+    }
+    .quantity-info td:nth-of-type(3):before {
+        content: "Price";
+        font-weight: bold;
+    }
+    .quantity-info td:nth-of-type(4):before {
+        content: "Setting";
+        font-weight: bold;
+    }
+    .quantity-info td:nth-of-type(5):before {
+        content: "Action";
+        font-weight: bold;
+    }
+    /* End */
+    /* my earning */
+    .earn-info td:nth-of-type(1):before {
+        content: " ";
+    }
+    .earn-info td:nth-of-type(2):before {
+        content: "Event Name";
+        font-weight: bold;
+    }
+    .earn-info td:nth-of-type(3):before {
+        content: "Amount";
+        font-weight: bold;
+    }
+    .earn-info td:nth-of-type(4):before {
+        content: "Paid";
+        font-weight: bold;
+    }
+    .earn-info td:nth-of-type(5):before {
+        content: "Due";
+        font-weight: bold;
+    }
+    .earn-info td:nth-of-type(6):before {
+        content: "Date";
+        font-weight: bold;
+    }
+    .earn-info td:nth-of-type(7):before {
+        content: "Quick Links";
+        font-weight: bold;
+    }
+    /* End */
+    /* Cancel order*/
+    .cancel-info td:nth-of-type(1):before {
+        content: "Event Name";
+        font-weight: bold;
+    }
+    .cancel-info td:nth-of-type(2):before {
+        content: "Ticket Name";
+        font-weight: bold;
+    }
+    .cancel-info td:nth-of-type(3):before {
+        content: "Ticket Qty";
+        font-weight: bold;
+    }
+    .cancel-info td:nth-of-type(4):before {
+        content: "Amount";
+        font-weight: bold;
+    }
+    /* End*/
+    .table_res2 td {
+        padding-left: 37% !important;
+    }
+    /* attendee order */
+    .attendee-order td:nth-of-type(1):before {
+        content: "Ticket Buyer";
+        font-weight: bold;
+    }
+    .attendee-order td:nth-of-type(2):before {
+        content: "Qty";
+        font-weight: bold;
+    }
+    .attendee-order td:nth-of-type(3):before {
+        content: "Ticket Type";
+        font-weight: bold;
+    }
+    .attendee-order td:nth-of-type(4):before {
+        content: "Paid";
+        font-weight: bold;
+    }
+    .attendee-order td:nth-of-type(5):before {
+        content: "Quick Actions";
+        font-weight: bold;
+    }
+    /* End */
+    /* invite_table */
+    .invite_table td:nth-of-type(1):before {
+        content: "Subject";
+        font-weight: bold;
+    }
+    .invite_table td:nth-of-type(2):before {
+        content: "Created At";
+        font-weight: bold;
+    }
+    .invite_table td:nth-of-type(3):before {
+        content: "Action";
+        font-weight: bold;
+    }
+    /* End */
+    /* invite_table */
+    .create_table td:nth-of-type(1):before {
+        content: "Email";
+        font-weight: bold;
+    }
+    .create_table td:nth-of-type(2):before {
+        content: "First Name";
+        font-weight: bold;
+    }
+    .create_table td:nth-of-type(3):before {
+        content: "Last Name";
+        font-weight: bold;
+    }
+    .create_table td:nth-of-type(4):before {
+        content: "Action";
+        font-weight: bold;
+    }
+    /* End */
+    /* multi_user */
+    .multi_user td:nth-of-type(1):before {
+        content: "Email";
+        font-weight: bold;
+    }
+    .multi_user td:nth-of-type(2):before {
+        content: "Action";
+        font-weight: bold;
+    }
+    /* End */
+    /* affiliates */
+    .affiliatestable td:nth-of-type(1):before {
+        content: "Site Visits";
+        font-weight: bold;
+    }
+    .affiliatestable td:nth-of-type(2):before {
+        content: "Tickets Sold";
+        font-weight: bold;
+    }
+    .affiliatestable td:nth-of-type(3):before {
+        content: "Sales";
+        font-weight: bold;
+    }
+    .affiliatestable td:nth-of-type(4):before {
+        content: "Your Share";
+        font-weight: bold;
+    }
+    .affiliatestable td:nth-of-type(5):before {
+        content: "Paid";
+        font-weight: bold;
+    }
+    .affiliatestable td:nth-of-type(6):before {
+        content: "Due";
+        font-weight: bold;
+    }
+    .H39_sm {
+        height: 55px;
+    }
+    /* End */
+    /* my earning */
+    .myearning_table td:nth-of-type(1):before {
+        content: "Event Name";
+        font-weight: bold;
+    }
+    .myearning_table td:nth-of-type(2):before {
+        content: "Amount";
+        font-weight: bold;
+    }
+    .myearning_table td:nth-of-type(3):before {
+        content: "Paid";
+        font-weight: bold;
+    }
+    .myearning_table td:nth-of-type(4):before {
+        content: "Due";
+        font-weight: bold;
+    }
+    .myearning_table td:nth-of-type(5):before {
+        content: "Date";
+        font-weight: bold;
+    }
+    .myearning_table td:nth-of-type(6):before {
+        content: "Quick Links";
+        font-weight: bold;
+    }
+    /* End */
+    /* my affiliate */
+    .my_affiliate_table td:nth-of-type(1):before {
+        content: "Site Visits";
+        font-weight: bold;
+    }
+    .my_affiliate_table td:nth-of-type(2):before {
+        content: "Tickets Sold";
+        font-weight: bold;
+    }
+    .my_affiliate_table td:nth-of-type(3):before {
+        content: "Sales";
+        font-weight: bold;
+    }
+    .my_affiliate_table td:nth-of-type(4):before {
+        content: "Your Share";
+        font-weight: bold;
+    }
+    .my_affiliate_table td:nth-of-type(5):before {
+        content: "Amount";
+        font-weight: bold;
+    }
+    /* End */
+    /* p code */
+    .p_codetable td:nth-of-type(1):before {
+        content: "Discount Code";
+        font-weight: bold;
+    }
+    .p_codetable td:nth-of-type(2):before {
+        content: "Amount";
+        font-weight: bold;
+    }
+    .p_codetable td:nth-of-type(3):before {
+        content: "Starts";
+        font-weight: bold;
+    }
+    .p_codetable td:nth-of-type(4):before {
+        content: "Ends";
+        font-weight: bold;
+    }
+    .p_codetable td:nth-of-type(5):before {
+        content: "Available";
+        font-weight: bold;
+    }
+    .p_codetable td:nth-of-type(6):before {
+        content: "Action";
+        font-weight: bold;
+    }
+    /* End */
+    /* all_affiliate_table */
+    .all_affiliate_table td:nth-of-type(1):before {
+        content: "Affiliate Name";
+        font-weight: bold;
+    }
+    .all_affiliate_table td:nth-of-type(2):before {
+        content: "Visits";
+        font-weight: bold;
+    }
+    .all_affiliate_table td:nth-of-type(3):before {
+        content: "Affiliates";
+        font-weight: bold;
+    }
+    .all_affiliate_table td:nth-of-type(4):before {
+        content: "Sales";
+        font-weight: bold;
+    }
+    .all_affiliate_table td:nth-of-type(5):before {
+        content: "Referral Fee";
+        font-weight: bold;
+    }
+    .all_affiliate_table td:nth-of-type(6):before {
+        content: "Amount";
+        font-weight: bold;
+    }
+    .all_affiliate_table td:nth-of-type(7):before {
+        content: "Actions";
+        font-weight: bold;
+    }
+    /* End */
+    /* all_affiliate_table */
+    .event_view_table td:nth-of-type(1):before {
+        content: "Ticket name";
+        font-weight: bold;
+    }
+    .event_view_table td:nth-of-type(2):before {
+        content: "Sales End";
+        font-weight: bold;
+    }
+    .event_view_table td:nth-of-type(3):before {
+        content: "Price";
+        font-weight: bold;
+    }
+    .event_view_table td:nth-of-type(4):before {
+        content: "Fee";
+        font-weight: bold;
+    }
+    .event_view_table td:nth-of-type(5):before {
+        content: "Available";
+        font-weight: bold;
+    }
+    .event_view_table td:nth-of-type(6):before {
+        content: "Quantity";
+        font-weight: bold;
+    }
+    /* End */
+    /* all_affiliate_table */
+    .invite_edittable td:nth-of-type(1):before {
+        content: "Select";
+        font-weight: bold;
+    }
+    .invite_edittable td:nth-of-type(2):before {
+        content: "Email";
+        font-weight: bold;
+    }
+    .invite_edittable td:nth-of-type(3):before {
+        content: "First Name";
+        font-weight: bold;
+    }
+    .invite_edittable td:nth-of-type(4):before {
+        content: "Last Name";
+        font-weight: bold;
+    }
+    .invite_edittable td:nth-of-type(5):before {
+        content: "Action";
+        font-weight: bold;
+    }
+    /* End */
+    /* Create ticket */
+    .tbl-ticket td:nth-of-type(1):before {
+        content: "Ticket name";
+        font-weight: bold;
+    }
+    .tbl-ticket td:nth-of-type(2):before {
+        content: "Quantity available";
+        font-weight: bold;
+    }
+    .tbl-ticket td:nth-of-type(3):before {
+        content: "Price";
+        font-weight: bold;
+    }
+    .tbl-ticket td:nth-of-type(4):before {
+        content: "Fee";
+        font-weight: bold;
+    }
+    .tbl-ticket td:nth-of-type(5):before {
+        content: "Buyer Total";
+        font-weight: bold;
+    }
+    .tbl-ticket td:nth-of-type(6):before {
+        content: "Sales Status";
+        font-weight: bold;
+    }
+    .tbl-ticket td:nth-of-type(7):before {
+        content: "Setting";
+        font-weight: bold;
+    }
+    .tbl-ticket td:nth-of-type(8):before {
+        content: "Action";
+        font-weight: bold;
+    }
+    /* End */
+    /* selas-info */
+    .ticket-sales-info td:nth-of-type(1):before {
+        content: "Ticket Name";
+        font-weight: bold;
+    }
+    .ticket-sales-info td:nth-of-type(2):before {
+        content: "Sold";
+        font-weight: bold;
+    }
+    .ticket-sales-info td:nth-of-type(3):before {
+        content: "Tickets Status";
+        font-weight: bold;
+    }
+    .ticket-sales-info td:nth-of-type(4):before {
+        content: "Sales End";
+        font-weight: bold;
+    }
+    .res-total tr td {
+        display: inline-block!important;
+        padding: 0px !important;
+    }
+    .res-total td:nth-of-type(1) {
+        display: none !important;
+    }
+    .res-total td:nth-of-type(2) {
+        display: none !important;
+    }
+    .res-total td:before {
+        content: " "!important;
+    }
+    .res-total td:nth-of-type(3) {
+        width: 40%;
+        padding: 10px 0px !important;
+        border-bottom: 0px;
+        padding-left: 10px!important;
+    }
+    .res-total td:nth-of-type(4) {
+        padding: 10px 0px !important;
+        border-bottom: 0px;
+    }
+    .res-total td:nth-of-type(5) {
+        display: none;
+    }
+    /*for i pad*/
+    .bimg img {
+        width: 43px !important;
+    }
+    .purchase-ticket td:nth-of-type(1):before {
+        content: "Ticket name";
+        font-weight: bold;
+    }
+    .purchase-ticket td:nth-of-type(2):before {
+        content: "Price";
+        font-weight: bold;
+    }
+    .purchase-ticket td:nth-of-type(3):before {
+        content: "Fee";
+        font-weight: bold;
+    }
+    .purchase-ticket td:nth-of-type(4):before {
+        content: "Quantity";
+        font-weight: bold;
+    }
+    .purchase-ticket td:nth-of-type(5):before {
+        content: "Total";
+        font-weight: bold;
+    }
+}
