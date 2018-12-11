@@ -54,17 +54,28 @@
                     <td><?php echo $event_start_date_time;?></td>	
                     <td><?php echo $status;?></td>
                     <td><?php if($event_capacity==''){ echo N_A; }else{echo $used.'/'.$event_capacity;}  ?></td>
-                    <td>
-                     <ul class="nav navbar-nav edit-delt text-center">
-                        <li> <a href="<?php echo site_url('event/event_dashboard/1/'.$event_id);?>" data-toggle="tooltip" data-placement="bottom" title="Manage"><i class="fa fa-cog" aria-hidden="true"></i></a> </li>
+                    <td class="H39_sm"><ul class="nav navbar-nav edit-delt text-center">
+                     
+                        <li>
+                        <a href="<?php echo site_url('event/event_dashboard/1/'.$event_id);?>"  data-toggle="tooltip" data-placement="bottom" title="Manage"><i class="fa fa-cog" aria-hidden="true"></i></a>
+                        </li>
                         
-                        <li> <a href="<?php echo site_url('event/edit_event/'.$event_id);?>" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a> </li>
+                        <li>
+                        <a href="<?php echo site_url('event/edit_event/'.$event_id);?>" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                        </li>
                         
-                        <li> <a href="<?php echo site_url('event/view/'.$event_url_link);?>" data-toggle="tooltip" data-placement="bottom" title="View"><i class="fa fa-eye" aria-hidden="true"></i></a> </li>
+                        <li>
+                        <a href="<?php echo site_url('event/theme/'.$event_id);?>" data-toggle="tooltip" data-placement="bottom" title="Theme"><i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+                        </li>
                         
-                        <li> <a href="<?php echo site_url('invites/index/'.$event_id);?>" data-toggle="tooltip" data-placement="bottom" title="invite"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> </li>
+                        <li>
+                        <a href="<?php echo site_url('event/edit_event/'.$event_id.'#publish_event'); ?>" data-toggle="tooltip" data-placement="bottom" title="publish"><i class="fa fa-check-square-o" aria-hidden="true"></i></a>
+                        </li>
 
-
+                        <li>
+                        <a onclick="delete_event(this, event);" href="<?php echo site_url('event/delete_single_event/'.$event_id); ?>" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                        </li>
+                        
                     </ul>
                     </td>
         		</tr>

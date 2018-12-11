@@ -91,7 +91,7 @@
 			                                  	 	 		if(in_array($paid['id'], $promo_tkts_arr)){		
 				                                  	 	 		echo $paid['ticket_name'];
 				                                  	 	 		if($promo_code_amt > 0){
-				                                  	 	 			echo '<br />'.Discounted.set_event_currency($promo_code_amt,$event_details['id']);//set_currency($promo_code_amt);
+				                                  	 	 			echo '<br />'.Discounted.set_event_currency($promo_code_amt,$event_details['id']);
 				                                  	 	 		}
 				                                  	 	 		
 				                                  	 	 		if($promo_code_perc > 0){
@@ -331,7 +331,7 @@
 											if(($event_details['event_pass_fees']==1) || ($event_details['event_pass_fees']==3 && $donation['service_fee']==1)){
 												echo set_event_currency($donation_ticket_gateway_fee,$event_details['id']);
 											} else {
-												echo set_event_currency(0,$event_details['id']);//set_currency(0)	;
+												echo set_event_currency(0,$event_details['id']);
 											}
 		                                  	 ?></span>
 		                                  	 </td>

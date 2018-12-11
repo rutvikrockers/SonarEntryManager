@@ -3884,7 +3884,7 @@ var RLANG = {
 				}
 				else
 				{
-					alert('Upload failed!');
+					// alert('Upload failed!');
 					this.modalClose();
 				}
 			}

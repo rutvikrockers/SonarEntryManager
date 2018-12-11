@@ -457,7 +457,7 @@ if($event_id!=''){
 									</select>
 								</div>
 						    	<div class="col-sm-8 col-sm-offset-3">
-						    		<p class="fromText"><a class="mfPopupIn" href="#timezone_box" id="time_zone_event"><?php echo TIMEZONE_DATE_SETTINGS; ?></a></p>
+						    		<p class="fromText"><a class="mfPopupIn" href="#timezone_box" id="time_zone_event"><?php echo Date_Time_Settings; ?></a></p>
 
 						            <div class="radio padL0" style="display: none;">
 						              <label>

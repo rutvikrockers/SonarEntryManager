@@ -41,8 +41,10 @@
               if($donor_email=='' || $donor_email=='0'){
                 $donor_email = $this->session->userdata('email');
               }
-                $amount = set_event_currency($earn['purchases_total'], $event_id);
-                if($earn['purchases_total'] == 0) {
+                if(!$earn['payment_gateway'] || ($earn['payment_gateway'] == 'pay_at_event' && $earn['active'] == 2)) {
+                    $due = "<i class='glyphicon glyphicon-minus'></i>";
+                    $paid = "<i class='glyphicon glyphicon-ok'></i>";
+                } elseif($earn['purchases_total'] == 0 || ($earn['payment_gateway'] == 'pay_at_event')) {
                     $due = "<i class='glyphicon glyphicon-minus'></i>";
                     $paid = "<i class='glyphicon glyphicon-minus'></i>";
                 } elseif($earn['is_wallet'] && !$wallet_paid && $request_send) {
@@ -55,8 +57,11 @@
                     $due = "<i class='glyphicon glyphicon-minus'></i>";
                     $paid = "<i class='glyphicon glyphicon-ok'></i>";
                 }
+                $amount = set_event_currency($earn['purchases_total'], $event_id);
                 if($earn['purchases_total'] == 0) {
                     $payment_gateway = "<i class='glyphicon glyphicon-minus'></i>";
+                } elseif($earn['payment_gateway'] == 'pay_at_event') {
+                    $payment_gateway = "Pay at Event";
                 } elseif($earn['payment_gateway']) {
                     $payment_gateway = ($earn['payment_gateway'] == 'split_paypal' || $earn['payment_gateway'] == 'paypal') ? 'Paypal' : 'Card';
                 } else {

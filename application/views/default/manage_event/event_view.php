@@ -557,7 +557,8 @@ $is_delete = delete_check($event_status);
                                                         echo Sold_Out;
                                                                         $free_ids=$free['id'];
                                                                         echo '<input type="hidden"  name="ticket_qty['.$free_ids.']" id="ticket_qty_'.$free_ids.'"/>';
-                                                    }  }
+                                                        }  
+                                                    }
                                                 }
                                             ?></td>
                     </tr>
@@ -885,11 +886,7 @@ $is_delete = delete_check($event_status);
                                                     echo '<input type="hidden"  name="ticket_qty['.$paid_ids.']" id="ticket_qty_'.$paid_ids.'"/>';
                                                 } else {                                                
                                                         
-                                                    if ($paid['min_purchase']=='' || $paid['min_purchase']==0){
-                                                        $paid['min_purchase']=$site_setting['min_purchase_allowed'];
-                                                    } else {
-                                                        $paid['min_purchase']=$site_setting['min_purchase_allowed'];
-                                                    }
+                                                    $paid['min_purchase']=$site_setting['min_purchase_allowed'];
                                                     
                                                     if ($paid['max_purchase']=='' || $paid['max_purchase']==0){
                                                         $paid['max_purchase']=$site_setting['max_purchase_allowed'];
@@ -1085,7 +1082,6 @@ $is_delete = delete_check($event_status);
                                             ?></td>
                       <?php } ?>
                       <td><?php
-                //echo $donation['start_sale'].'//'.$donation['end_sale'];
                                                 if($donation['end_sale']=='' || $donation['end_sale'] < $now_date || $donation['start_sale'] > $now_date || $event_details['event_end_date_time'] < $now_date  || $is_purchase==2) {
                                                 $donation_id = $donation['id'];
                                                     echo N_A;

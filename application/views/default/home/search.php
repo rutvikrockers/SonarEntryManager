@@ -144,7 +144,6 @@ echo SEARCH; ?>">
             <div class="container marTB50">
             <?php   if($price||$date||$city||$category||$location||$search_event_type_name) {?>
     
-     <!-- <input name="tags" id="mySingleField" value="<?php echo $price;?>,<?php echo $date;?>,<?php echo $city;?>,<?php echo SecureShowData($category);?>" disabled="true" style="display: none;"> -->
 <?php  
 
 if ($parent && $category!="") {

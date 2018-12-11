@@ -157,7 +157,7 @@ More detail and specific examples can be found in the included HTML file.
 				}
 			}
 			traverse(obj);
-			alert(msg);
+			// alert(msg);
 		}
 		
 		function calcTotal(data)

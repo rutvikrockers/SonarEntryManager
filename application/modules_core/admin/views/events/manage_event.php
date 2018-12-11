@@ -133,13 +133,10 @@ if($event_id!=''){
                             <li class="list-group-item"><?php echo PAGE_VIEWS ?> : <?php echo SecureShowData($status['page_visits']);?></li>
                             <li class="list-group-item"><?php echo TICKETS_SOLD; ?>  : <?php echo SecureShowData($status['sold']);?></li>
                             <li class="list-group-item"><?php echo TICKETS_AVAILABLE;?> : <?php  echo SecureShowData($status['total_tickets']) - SecureShowData($status['sold']); ?></li>                                                                                
-                            <li class="list-group-item"><?php echo "Online Sales"; ?> : <?php echo set_event_currency($online_sale, $event_id);?></li>
+                            <li class="list-group-item"><?php echo TOTAL_SALES; ?> : <?php echo set_event_currency($gross_sales, $event_id);?></li>
+                            <li class="list-group-item"><?php echo ONLINE_SALES; ?> : <?php echo set_event_currency($net_sales, $event_id);?></li>
                             <li class="list-group-item"><?php echo "Manual Sales"; ?> : <?php echo set_event_currency($manual_sale, $event_id);?></li>
                             <li class="list-group-item"><?php echo "Offline Sales"; ?> : <?php echo set_event_currency($offline_sale, $event_id);?></li>
-                            <li class="list-group-item"><?php echo GROSS_SALES; ?> : <?php echo set_event_currency($gross_sales, $event_id);?></li>                                                                                
-                            <li class="list-group-item"><?php echo "Processing Fees"; ?> : <?php echo set_event_currency($processing_fees, $event_id);?></li>
-                            <li class="list-group-item"><?php echo "Payment Gateway Fees"; ?> : <?php echo set_event_currency($payment_gateway_fees, $event_id);?></li>
-                            <li class="list-group-item"><?php echo "Net Sales"; ?> : <?php echo set_event_currency($net_sales, $event_id);?></li>
                           </ul>
                         </div>
                 </div><!-- col-lg-8  -->             
@@ -171,8 +168,18 @@ if($event_id!=''){
             </div>
 
 
-            <div class="row">             
-                                          
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 clearfix">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><?php echo TOTAL_PAYOUT; ?></div>
+                        <ul class="list-group">
+                            <li class="list-group-item"><?php echo ONLINE_SALES; ?> : <?php echo set_event_currency($net_sales, $event_id);?></li>
+                            <li class="list-group-item"><?php echo "Processing Fees"; ?> : <?php echo set_event_currency($processing_fees, $event_id);?></li>
+                            <li class="list-group-item"><?php echo "Payment Gateway Fees"; ?> : <?php echo set_event_currency($payment_gateway_fees, $event_id);?></li>
+                            <li class="list-group-item"><?php echo PAYOUT; ?> : <?php echo set_event_currency($total_payout, $event_id);?></li>
+                        </ul>
+                    </div>
+                </div><!-- col-lg-8  -->
             </div>
 
             <div class="row">             

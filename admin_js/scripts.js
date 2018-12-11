@@ -43,7 +43,7 @@ var App = function () {
                 },
                 onRegionClick: function (element, code, region) {
                     var message = 'You clicked "' + region + '" which has the code: ' + code.toUpperCase();
-                    alert(message);
+                    // alert(message);
                 }
             };
 
@@ -117,7 +117,7 @@ var App = function () {
                 onRegionClick: function (element, code, region) {
                     //sample to interact with map
                     var message = 'You clicked "' + region + '" which has the code: ' + code.toUpperCase();
-                    alert(message);
+                    // alert(message);
                 }
             };
             data.map = name + '_en';
@@ -1223,7 +1223,7 @@ var App = function () {
             function pieClick(event, pos, obj) {
                 if (!obj) return;
                 percent = parseFloat(obj.series.percent).toFixed(2);
-                alert('' + obj.series.label + ': ' + percent + '%');
+                // alert('' + obj.series.label + ': ' + percent + '%');
             }
 
             $.plot($("#graph_4"), graphData, {
@@ -2008,7 +2008,7 @@ var App = function () {
             'nextSelector': '.button-next,.button-merge,.button-overwrite',
             'previousSelector': '.button-previous',
             onTabClick: function (tab, navigation, index) {
-                alert('on tab click disabled');
+                // alert('on tab click disabled');
                 return false;
             },
             onNext: function (tab, navigation, index) {
@@ -2113,7 +2113,7 @@ var App = function () {
         $('#form_wizard_1').find('.button-overwrite').hide();
         $('#form_wizard_1').find('.button-merge').hide();
         $('#form_wizard_1 .button-submit').click(function () {
-            alert('Finished!');
+            // alert('Finished!');
         }).hide();
     }
 

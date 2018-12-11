@@ -225,7 +225,7 @@ $is_delete = delete_check($event_status);
 
                             <div class="col-xs-12 col-sm-12 p0 mt">
                                 <article class="col-xs-6 col-sm-6 width-xs2">
-                                <?php echo GROSS_SALES; ?>:
+                                <?php echo ONLINE_SALES; ?>:
                                 </article>
                                 <span class="col-xs-6 col-sm-6 width-xs2">
                                 <?php echo set_event_currency($final_gross, $id);?>
@@ -251,7 +251,7 @@ $is_delete = delete_check($event_status);
                                <?php echo set_event_currency($total_fees, $id);?>
                                 </span>
                                 <article class="col-xs-6 col-sm-6 width-xs2">
-                                <?php echo NET_SALES; ?>:
+                                <?php echo TOTAL_SALES; ?>:
                                 </article>
                                 <span class="col-xs-6 col-sm-6 width-xs2">
                                <?php echo set_event_currency($total_net_sales, $id);?>

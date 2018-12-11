@@ -1,7 +1,6 @@
 <!-- Start of Darshan Code -->
 <?php 
 $address='';
-// print_r($event_venue);die();
 if($event_id!=''){
         $venue_add1 = $event_venue['venue_add1'];
         $venue_add2 = $event_venue['venue_add2'];

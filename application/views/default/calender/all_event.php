@@ -235,7 +235,10 @@
 	    	} 
 	    }
 	    ?>
-	    <input type="hidden" name="search_type" id="search_type" value="">
+        <?php 
+            $calender_search = ($calender_search_type) ? implode(',', $calender_search_type) : '';
+        ?>
+	    <input type="hidden" name="search_type" id="search_type" value="<?php echo $calender_search; ?>">
 	    </ul>
 	        <button type="submit" class="btn-calender"><?php echo SEARCH;?></button>
 		</div>

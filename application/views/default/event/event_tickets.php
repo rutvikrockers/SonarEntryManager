@@ -168,11 +168,6 @@
 		          <div class="col-sm-11 col-xs-11 pr pleft0">
 		          	<input value="<?php echo $paid['price'];?>" type="text" onkeyup="set_fee_and_total('<?php echo $paid['id']; ?>',this);" id="paid_price<?php echo $paid['id']; ?>" class="paid_price_place" name="paid_price[]" style="text-align:right;" placeholder="<?php echo $site_setting['currency_symbol']; ?>">
 		          </div>
-					<script type="text/javascript">
-						$(document).ready(function() {
-							// set_fee_and_total('<?php // echo $paid['id']; ?>',"#paid_price<?php // echo $paid['id']; ?>");
-						});
-					</script>
 		          <div class="col-sm-1 col-xs-1 tool pre">
                       <div class="tool-hover">
                      	 	<img width=" " height=" " class="" alt=" " src="<?php echo base_url();?>images/i.png">
@@ -204,9 +199,9 @@
 					  <?php 
 		          if($paid['buyer_total']!=''){
   					if ($event_pass_fees==2 || ($event_pass_fees == 3 && $paid['service_fee']==2)){
-  						echo set_event_currency($paid['price'], $event_id);//echo set_currency($paid['price']);
+  						echo set_event_currency($paid['price'], $event_id);
   					} else {
-  						echo set_event_currency($paid['buyer_total'], $event_id);//echo set_currency($paid['buyer_total']);
+  						echo set_event_currency($paid['buyer_total'], $event_id);
   					}
 		          } else { echo set_currency(0); }
 		          ?>
@@ -346,14 +341,6 @@
 						        <p>~<?php echo $site_setting['paid_ticket_fee']; ?>% + <?php echo $site_setting['paid_ticket_flat_fee']; ?></p>
 						    </li>
 						   
-						    <!-- <li class="no-brdr">
-						        +
-						    </li>
-						    <li> 
-						        <h5>Flat Fee </h5>
-						        <p><?php // echo $site_setting['paid_ticket_flat_fee']; ?></p>
-						    </li> -->
-						   
 						    <li class="no-brdr">
 						        +
 						    </li>
@@ -378,7 +365,8 @@
 	        </tr>
 		</tbody>
 	<?php //======================== Paid Ticket End ========================== ?>  
-	<?php  } }?>
+	<?php  } 
+    }?>
 	<input type="hidden" name="paid_ticket_cnt" id="paid_ticket_cnt" value="<?php echo $paid_ticket_cnt;?>" />
 	<input type="hidden" name="paid_ticket_remove" id="paid_ticket_remove" value="" />
 </tbody>

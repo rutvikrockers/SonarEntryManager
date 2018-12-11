@@ -19,7 +19,6 @@ if($disc_codes) {
     $disc_codes_disc_perc = $disc_codes['disc_perc'];
     $disc_codes_end_date_time = $disc_codes['end_date_time'];
 }
-// print_r($event_venue);die();
 if($event_id!=''){
         $venue_add1 = $event_venue['venue_add1'];
         $venue_add2 = $event_venue['venue_add2'];
@@ -476,8 +475,6 @@ td._51m-._51mw a {
 							                    	
 													$promo_tkts_new = explode(',',$promo_tkts);
 							                    	if($promo_tkts_new){
-							                    			//print_r($promo_tkts_new);
-														//echo $free['id']; die;
 							                    		if(in_array($free['id'], $promo_tkts_new)){			                    		
 							                    			echo SecureShowData($free_ticket_name);
 															 if($free_description != ''){
@@ -513,16 +510,7 @@ td._51m-._51mw a {
                         <?php  
 										                 } 
 								                    }		                    
-					                			}
-							                    	
-							                    /*if($free_description != ''){
-							                    ?>
-								                    <a href="javascript:" onclick="if($('#<?php echo $free['id']; ?>').val()==1){ $('#desc_<?php echo $free['id']; ?>').hide(); $('#<?php echo $free['id']; ?>').val(0); this.innerHTML = '<?php echo View_More;?>'; }else{ $('#desc_<?php echo $free['id']; ?>').show(); $('#<?php echo $free['id']; ?>').val(1); this.innerHTML = '<?php echo Hide;?>';  }"><?php echo View_More;?></a>
-								                    <input type="hidden" id="<?php echo $free['id']; ?>" value="0" />
-								                    <div id="desc_<?php echo $free['id']; ?>" style="display: none;">
-						                            	<?php echo $free_description;?>
-						                            </div>
-							                    <?php  } */ ?></td>
+					                			} ?></td>
                       <td><?php 
 							                    if($free_end_sale != '' && $free_end_sale !== $invalid_date) {
 							                    	  if ($access_codes){			                    	
@@ -693,8 +681,6 @@ td._51m-._51mw a {
 							                    			echo $paid_ticket_name;
 							                    		}	else {
 							                    			if($paid_ticket_status!=2){
-							                    				//echo $paid_ticket_status;
-																// die;
 																echo SecureShowData($paid_ticket_name);	
 															}
 															
@@ -718,7 +704,6 @@ td._51m-._51mw a {
                                                                                 ?>
                         <?php  } ?></td>
                       <td><?php 
-							                    //if($paid_ticket_status != '' && $paid_ticket_status !== $invalid_date) {
 							                    	
 							                    	  if($disc_codes){
 							                    	  	$promo_tkts = $disc_codes_tickets;
@@ -937,7 +922,6 @@ td._51m-._51mw a {
 				                                    echo N_A;
 													$paid_ids = $paid['id'];
 													echo '<input type="hidden"  name="ticket_qty['.$paid_ids.']" id="ticket_qty_'.$paid_ids.'"/>';
-													//echo '<input type="hidden"  name="ticket_price['.$paid_ids.']" id="ticket_price_'.$paid_ids.'"/>';
 					                    		} else {		                                		
 				                                		
 				                                	if ($paid_min_purchase=='' || $paid_min_purchase==0){
@@ -1133,7 +1117,6 @@ td._51m-._51mw a {
 							                ?></td>
                       <?php } ?>
                       <td><?php
-				//echo $donation['start_sale'].'//'.$donation_end_sale;
 					                    		if($donation_end_sale=='' || $donation_end_sale < $now_date || $donation['start_sale'] > $now_date || $event_details['event_end_date_time'] < $now_date  || $is_purchase==2) {
 												$donation_id = $donation['id'];
 				                                    echo N_A;
@@ -1212,7 +1195,6 @@ td._51m-._51mw a {
                 <?php 
 				                
 				               
-								//print_r($promotional_codes);die;
 				                
 				                if($code_type==0 && count($promotional_codes) > 0){
 				                		 

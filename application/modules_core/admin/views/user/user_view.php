@@ -83,7 +83,7 @@
                 <div class="page-header border"></div>
                 <!-- /.col-lg-12 -->
                 <div>
-                <button>Back</button>  
+                <button onclick='window.location.href = "<?php echo base_url('admin/admin_user/list_users'); ?>";'>Back</button>  
                 </div>
                 
             </div>
